@@ -1,0 +1,40 @@
+.button {
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.primary {
+  background: #db4444;
+  color: #fff;
+}
+
+.success {
+  background: #00ff66;
+  color: #111;
+}
+
+.ghost {
+  background: #fff;
+  color: #111;
+  border: 1px solid #ddd;
+}
+
+.md {
+  padding: 12px 22px;
+}
+
+.sm {
+  padding: 9px 16px;
+  font-size: 14px;
+}
+
+.fullWidth {
+  width: 100%;
+}

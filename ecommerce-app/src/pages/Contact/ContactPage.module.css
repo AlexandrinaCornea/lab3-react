@@ -1,0 +1,109 @@
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 80px;
+  display: grid;
+  gap: 30px;
+}
+
+.wrap {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 340px 1fr;
+  align-items: start;
+  margin-bottom: 60px;
+}
+
+.infoCard {
+  padding: 26px;
+  display: grid;
+  gap: 20px;
+}
+
+.infoBlock {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 16px;
+}
+
+.infoBlock:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.infoTitleRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.infoTitleRow h3 {
+  margin: 0;
+}
+
+.infoIconWrap {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+.infoIcon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.infoBlock p {
+  margin: 0 0 10px;
+  color: #4b4b4b;
+  line-height: 1.5;
+}
+
+.formCard {
+  padding: 26px;
+  display: grid;
+  gap: 18px;
+}
+
+.grid3 {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.formCard input,
+.formCard textarea {
+  border: 1px solid #ececec;
+  background: #f6f6f6;
+  border-radius: 4px;
+  padding: 13px;
+}
+
+.formCard textarea {
+  min-height: 220px;
+  resize: vertical;
+}
+
+.submitRow {
+  text-align: right;
+}
+
+@media (max-width: 1000px) {
+  .page {
+    padding: 0 14px 56px;
+  }
+
+  .wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .grid3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+

@@ -1,0 +1,10 @@
+.breadcrumb {
+  display: flex;
+  gap: 12px;
+  color: #787878;
+  padding: 34px 0;
+}
+
+.current {
+  color: #111;
+}

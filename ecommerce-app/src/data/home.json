@@ -1,0 +1,65 @@
+{
+  "hero": {
+    "appleLogo": "/src/assets/branding/apple-icon.png",
+    "heroImage": "/src/assets/hero/iphone-banner.png",
+    "subtitle": "iPhone 14 Series",
+    "title": "Up to 10% off Voucher"
+  },
+  "categories": [
+    "Woman's Fashion",
+    "Men's Fashion",
+    "Electronics",
+    "Home & Lifestyle",
+    "Medicine",
+    "Sports & Outdoor"
+  ],
+  "flashSales": [
+    { "name": "HAVIT HV-G92 Gamepad", "price": "$120", "oldPrice": "$160", "discount": "-40%", "image": "/src/assets/products/gamepad-havit.png", "ratingCount": 65 },
+    { "name": "AK-900 Wired Keyboard", "price": "$960", "oldPrice": "$1160", "discount": "-35%", "image": "/src/assets/products/keyboard-ak900.png", "ratingCount": 65 },
+    { "name": "IPS LCD Gaming Monitor", "price": "$370", "oldPrice": "$400", "discount": "-30%", "image": "/src/assets/products/monitor-g27.png", "ratingCount": 65 },
+    { "name": "S-Series Comfort Chair", "price": "$375", "oldPrice": "$400", "discount": "-25%", "image": "/src/assets/products/chair-s-series.png", "ratingCount": 99 }
+  ],
+  "browse": [
+    { "label": "Phones", "icon": "/src/assets/categories/phone.png" },
+    { "label": "Computers", "icon": "/src/assets/categories/computer.png" },
+    { "label": "SmartWatch", "icon": "/src/assets/categories/smartwatch.png" },
+    { "label": "Camera", "icon": "/src/assets/categories/camera.png", "active": true },
+    { "label": "HeadPhones", "icon": "/src/assets/categories/headphone.png" },
+    { "label": "Gaming", "icon": "/src/assets/categories/gaming.png" }
+  ],
+  "bestSelling": [
+    { "name": "The north coat", "price": "$260", "oldPrice": "$360", "image": "/src/assets/products/coat-north.png", "ratingCount": 65 },
+    { "name": "Gucci duffle bag", "price": "$960", "oldPrice": "$1160", "image": "/src/assets/products/bag-gucci-duffle.png", "ratingCount": 65 },
+    { "name": "RGB liquid CPU Cooler", "price": "$160", "oldPrice": "$170", "image": "/src/assets/products/cooler-rgb.png", "ratingCount": 65 },
+    { "name": "Small BookShelf", "price": "$360", "image": "/src/assets/products/bookshelf-small.png", "ratingCount": 65 }
+  ],
+  "musicBanner": {
+    "eyebrow": "Categories",
+    "title": "Enhance Your Music Experience",
+    "image": "/src/assets/hero/jbl-banner.png"
+  },
+  "explore": [
+    { "name": "Breed Dry Dog Food", "price": "$100", "image": "/src/assets/products/dog-food.png", "ratingCount": 65 },
+    { "name": "CANON EOS DSLR Camera", "price": "$360", "image": "/src/assets/products/camera-canon.png", "ratingCount": 65 },
+    { "name": "ASUS FHD Gaming Laptop", "price": "$700", "image": "/src/assets/products/laptop-asus.png", "ratingCount": 65 },
+    { "name": "Curology Product Set", "price": "$500", "image": "/src/assets/products/curology-set.png", "ratingCount": 65 },
+    { "name": "Kids Electric Car", "price": "$960", "image": "/src/assets/products/kids-car.png", "ratingCount": 65 },
+    { "name": "Jr Zoom Soccer Cleats", "price": "$1160", "image": "/src/assets/products/soccer-cleats.png", "ratingCount": 65 },
+    { "name": "GP11 Shooter USB Gamepad", "price": "$660", "image": "/src/assets/products/gamepad-gp11.png", "ratingCount": 65 },
+    { "name": "Quilted Satin Jacket", "price": "$660", "image": "/src/assets/products/jacket-quilted.png", "ratingCount": 65 }
+  ],
+  "newArrival": [
+    { "title": "PlayStation 5", "description": "Black and White version of the PS5 coming out on sale.", "image": "/src/assets/arrivals/ps5.png", "large": true },
+    { "title": "Women's Collections", "description": "Featured woman collections that give you another vibe.", "image": "/src/assets/arrivals/women-collection.png", "women": true },
+    { "title": "Speakers", "description": "Amazon wireless speakers", "image": "/src/assets/arrivals/speakers.png" },
+    { "title": "Perfume", "description": "GUCCI INTENSE OUD EDP", "image": "/src/assets/arrivals/perfume.png" }
+  ],
+  "services": [
+    { "title": "FREE AND FAST DELIVERY", "text": "Free delivery for all orders over $140", "icon": "/src/assets/icons/services/delivery.png" },
+    { "title": "24/7 CUSTOMER SERVICE", "text": "Friendly 24/7 customer support", "icon": "/src/assets/icons/services/customer-service.png" },
+    { "title": "MONEY BACK GUARANTEE", "text": "We return money within 30 days", "icon": "/src/assets/icons/services/secure.png" }
+  ]
+}
+
+
+

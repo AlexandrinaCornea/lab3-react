@@ -1,0 +1,21 @@
+{
+  "columns": [
+    {
+      "title": "Support",
+      "items": ["111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.", "exclusive@gmail.com", "+88015-88888-9999"]
+    },
+    {
+      "title": "Account",
+      "items": ["My Account", "Login / Register", "Cart", "Wishlist", "Shop"]
+    },
+    {
+      "title": "Quick Link",
+      "items": ["Privacy Policy", "Terms Of Use", "FAQ", "Contact"]
+    },
+    {
+      "title": "Download App",
+      "items": ["Save $3 with App New User Only", "Google Play", "App Store"]
+    }
+  ],
+  "copyright": "Copyright Rimel 2022. All right reserved"
+}

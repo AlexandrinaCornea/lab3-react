@@ -1,0 +1,436 @@
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 80px;
+  display: grid;
+  gap: 56px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.sideCategories {
+  border-right: 1px solid #e6e6e6;
+  padding-right: 12px;
+}
+
+.sideCategories p {
+  margin: 0;
+  padding: 10px 0;
+  color: #404040;
+}
+
+.heroBanner {
+  background: black;
+  color: #fff;
+  min-height: 320px;
+  border-radius: 6px;
+  padding: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.heroBanner p {
+  color: #a7a7a7;
+  margin: 0 0 10px;
+}
+
+.heroBanner h1 {
+  margin: 0 0 20px;
+  max-width: 350px;
+  font-size: clamp(28px, 4vw, 50px);
+}
+
+.heroContent {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.heroBanner > img {
+  width: min(46%, 440px);
+  max-height: 260px;
+  object-fit: contain;
+}
+
+.section {
+  display: grid;
+  gap: 24px;
+}
+
+.sectionTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.eyebrow {
+  margin: 0;
+  color: #db4444;
+  font-weight: 600;
+}
+
+.sectionTitle h2 {
+  margin: 8px 0 0;
+  font-size: clamp(26px, 4vw, 36px);
+}
+
+.productGrid4 {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.productGrid8 {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.productCard {
+  padding: 14px;
+  position: relative;
+}
+
+.productImage {
+  background: #f3f3f3;
+  min-height: 180px;
+  border-radius: 4px;
+  display: grid;
+  place-items: center;
+  color: #7f7f7f;
+}
+
+.productThumb {
+  width: 88%;
+  height: 160px;
+  object-fit: contain;
+}
+
+.discount {
+  background: #db4444;
+  color: #fff;
+  border-radius: 4px;
+  padding: 3px 6px;
+  font-size: 12px;
+  position: absolute;
+  top: 18px;
+  left: 18px;
+}
+
+.productCard h4 {
+  margin: 14px 0 8px;
+  font-size: 16px;
+}
+
+.price {
+  color: #db4444;
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.oldPrice {
+  color: #8e8e8e;
+  text-decoration: line-through;
+}
+
+.categoryGrid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.categoryCard {
+  min-height: 120px;
+  display: grid;
+  place-items: center;
+  gap: 8px;
+  font-weight: 500;
+  padding: 14px 8px;
+}
+
+.categoryActive {
+  background: #db4444 !important;
+  border-color: #db4444 !important;
+}
+
+.categoryIcon {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+}
+
+.categoryIconActive {
+  filter: brightness(0) invert(1);
+}
+
+.cameraFallback {
+  display: none;
+}
+
+.categoryLabel {
+  font-size: 14px;
+}
+
+.categoryActive .categoryLabel {
+  color: #fff;
+}
+
+.musicBanner {
+  background: radial-gradient(circle at right, #2f2f2f 0%, #0c0c0c 55%);
+  color: #fff;
+  border-radius: 6px;
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 48px;
+}
+
+.musicBanner p {
+  margin: 0;
+  color: #0dd46f;
+}
+
+.musicBanner h2 {
+  margin: 0 0 12px;
+  font-size: clamp(28px, 4vw, 46px);
+  max-width: 500px;
+}
+
+.musicImage {
+  width: min(52%, 520px);
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.arrivalGrid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1.15fr 1fr 1fr;
+}
+
+.arrivalCard {
+  background: #050505;
+  color: #fff;
+  min-height: 240px;
+  display: grid;
+  place-items: end start;
+  padding: 18px;
+  overflow: hidden;
+  position: relative;
+}
+
+.arrivalCard::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.12) 0%, rgba(0,0,0,0.72) 72%);
+  z-index: 1;
+}
+
+.arrivalImage {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.large .arrivalImage {
+  object-fit: contain;
+  background: #000;
+}
+
+.arrivalContent {
+  position: relative;
+  z-index: 2;
+  max-width: 250px;
+  padding-left: 10px;
+}
+
+.arrivalContent h3 {
+  margin: 0 0 8px;
+  font-size: 40px;
+  line-height: 1;
+}
+
+.arrivalContent p {
+  margin: 0 0 8px;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.linkButton {
+  border: 0;
+  border-bottom: 1px solid #fff;
+  padding: 0;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.womenCard .arrivalContent h3,
+.womenCard .arrivalContent p {
+  max-width: 220px;
+}
+
+.large {
+  grid-column: 1;
+  grid-row: span 2;
+  min-height: 500px;
+}
+
+.womenCard {
+  grid-column: 2 / span 2;
+}
+
+.small {
+  min-height: 240px;
+}
+
+.serviceRow {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.serviceIcon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #111;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 14px;
+}
+
+.serviceIconImage {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+
+.serviceItem h4 {
+  margin: 0 0 8px;
+}
+
+.serviceItem p {
+  margin: 0;
+  color: #555;
+}
+
+.centerAction {
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .sideCategories {
+    border-right: 0;
+    border-bottom: 1px solid #e6e6e6;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px 12px;
+    padding-bottom: 10px;
+  }
+
+  .musicBanner {
+    display: grid;
+    gap: 14px;
+  }
+
+  .musicImage {
+    width: 100%;
+    max-height: 240px;
+  }
+
+  .productGrid4,
+  .productGrid8 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .categoryGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .arrivalGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .large {
+    grid-column: span 2;
+    min-height: 340px;
+  }
+
+  .womenCard {
+    grid-column: span 2;
+  }
+
+  .arrivalContent h3 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 640px) {
+  .page {
+    gap: 44px;
+    padding: 0 14px 56px;
+  }
+
+  .heroBanner {
+    min-height: 250px;
+    padding: 24px;
+    display: grid;
+    gap: 16px;
+  }
+
+  .heroBanner > img {
+    width: 100%;
+    max-height: 200px;
+  }
+
+  .productGrid4,
+  .productGrid8,
+  .categoryGrid,
+  .arrivalGrid,
+  .serviceRow,
+  .sideCategories {
+    grid-template-columns: 1fr;
+  }
+
+  .arrivalContent h3 {
+    font-size: 24px;
+  }
+
+  .cameraFallback {
+    display: block;
+    font-size: 12px;
+    color: #fff;
+  }
+
+  .large {
+    grid-column: auto;
+    min-height: 260px;
+  }
+
+  .womenCard {
+    grid-column: auto;
+  }
+}
+
+
+

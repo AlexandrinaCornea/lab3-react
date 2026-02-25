@@ -1,0 +1,30 @@
+{
+  "storyTitle": "Our Story",
+  "storyImage": "/src/assets/story/about-story.png",
+  "storyParagraphs": [
+    "Launched in 2015, Exclusive is South Asia's premier online shopping marketplace with an active presence in Bangladesh.",
+    "Exclusive has more than 1 Million products to offer, growing at a very fast pace with a diverse assortment in categories."
+  ],
+  "stats": [
+    { "value": "10.5k", "label": "Sellers active on site", "icon": "/src/assets/icons/stats/shop.png" },
+    { "value": "33k", "label": "Monthly Product Sale", "highlight": true, "icon": "/src/assets/icons/stats/sale.png" },
+    { "value": "45.5k", "label": "Customers active on site", "icon": "/src/assets/icons/stats/shopping-bag.png" },
+    { "value": "25k", "label": "Annual gross sale on site", "icon": "/src/assets/icons/stats/moneybag.png" }
+  ],
+  "socialIcons": {
+    "instagram": "/src/assets/icons/social/instagram.png",
+    "linkedin": "/src/assets/icons/social/linkedin.png"
+  },
+  "team": [
+    { "name": "Tom Cruise", "role": "Founder & Chairman", "image": "/src/assets/team/tom.png" },
+    { "name": "Emma Watson", "role": "Managing Director", "image": "/src/assets/team/emma.png" },
+    { "name": "Will Smith", "role": "Product Designer", "image": "/src/assets/team/will.png" }
+  ],
+  "services": [
+    { "title": "FREE AND FAST DELIVERY", "text": "Free delivery for all orders over $140", "icon": "/src/assets/icons/services/delivery.png" },
+    { "title": "24/7 CUSTOMER SERVICE", "text": "Friendly 24/7 customer support", "icon": "/src/assets/icons/services/customer-service.png" },
+    { "title": "MONEY BACK GUARANTEE", "text": "We return money within 30 days", "icon": "/src/assets/icons/services/secure.png" }
+  ]
+}
+
+

@@ -1,0 +1,16 @@
+{
+  "contacts": [
+    {
+      "title": "Call To Us",
+      "icon": "/src/assets/icons/contact/phone.png",
+      "lines": ["We are available 24/7, 7 days a week.", "Phone: +8801611112222"]
+    },
+    {
+      "title": "Write To US",
+      "icon": "/src/assets/icons/contact/mail.png",
+      "lines": ["Fill out our form and we will contact you within 24 hours.", "Emails: customer@exclusive.com", "Emails: support@exclusive.com"]
+    }
+  ]
+}
+
+
